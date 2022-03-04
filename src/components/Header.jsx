@@ -15,7 +15,7 @@ const Header = () => {
             <div class=" flex items-center">
               {/* Logo */}
               <Link to="/">
-                <a class="flex-shrink-0">
+                <a class="flex-shrink-0" href="#">
                   <img class="h-20 w-20" src={logo} alt="Logo" />
                 </a>
               </Link>
@@ -25,7 +25,7 @@ const Header = () => {
                 <div class="ml-10 flex items-baseline space-x-4">
                   <Link to="/">
                     <a
-                      href=""
+                      href="#"
                       class="text-gray-800 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium"
                     >
                       Inicio
@@ -33,7 +33,7 @@ const Header = () => {
                   </Link>
                   <Link to="mission">
                     <a
-                      href=""
+                      href="#"
                       class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium"
                     >
                       Misión y Objetivos
@@ -94,7 +94,7 @@ const Header = () => {
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link to="mission">
                 <a
-                  href=""
+                  href="#"
                   class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Inicio
@@ -102,7 +102,7 @@ const Header = () => {
               </Link>
               <Link to="mission">
                 <a
-                  href=""
+                  href="#"
                   class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Misión y Objetivos
