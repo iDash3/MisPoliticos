@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import colors from "../config/colors";
 import logo from "../logo3.png";
 import { Link } from "react-router-dom";
 
