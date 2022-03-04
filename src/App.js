@@ -59,7 +59,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="flex flex-row justify-around">
+            <div className="mt-2 flex flex-row justify-around">
               {denuncia ? (
                 <IconButton
                   text="Denuncia"
@@ -174,7 +174,7 @@ function App() {
                     </div>
                     <button
                       type="submit"
-                      class="
+                      className="
       w-full
       px-6
       py-2.5
@@ -196,6 +196,27 @@ function App() {
                       Enviar
                     </button>
                   </form>
+                  <button
+                    className="
+      w-full
+      mt-1
+      px-6
+      py-2.5
+      bg-red-400
+      text-white
+      font-medium
+      text-xs
+      leading-tight
+      uppercase
+      rounded
+      shadow-md
+      transition
+      duration-150
+      ease-in-out"
+                    onClick={() => setDenuncia(true)}
+                  >
+                    Regresar
+                  </button>
                 </div>
               )}
             </div>

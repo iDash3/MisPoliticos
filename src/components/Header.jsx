@@ -24,12 +24,18 @@ const Header = () => {
               <div class="md:block hidden">
                 <div class="ml-10 flex items-baseline space-x-4">
                   <Link to="/">
-                    <a class="text-gray-800 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                    <a
+                      href=""
+                      class="text-gray-800 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                    >
                       Inicio
                     </a>
                   </Link>
                   <Link to="mission">
-                    <a class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                    <a
+                      href=""
+                      class="text-gray-800  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                    >
                       Misión y Objetivos
                     </a>
                   </Link>
@@ -87,12 +93,18 @@ const Header = () => {
           <div class="md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link to="mission">
-                <a class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  href=""
+                  class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Inicio
                 </a>
               </Link>
               <Link to="mission">
-                <a class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                <a
+                  href=""
+                  class="text-gray-800 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
                   Misión y Objetivos
                 </a>
               </Link>
